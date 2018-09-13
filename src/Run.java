@@ -1,6 +1,7 @@
 import annotation.AnnotationTest;
 import basic.Animal;
 import basic.Dog;
+import designpattern.factory.FactoryTest;
 import designpattern.proxy.ProxyTest;
 import intf.Test;
 import reflection.ReflectionTest;
@@ -20,7 +21,8 @@ public class Run {
         Run run = new Run();
 //         run.test1();
 //        run.test2();
-        run.runProxyTest();
+        run.runFactoryTest();
+//        run.runProxyTest();
 //        run.runReflectionTest();
 
     }
@@ -51,7 +53,15 @@ public class Run {
 
 
     /**
-     * 测试代理
+     * 测试工厂模式
+     */
+    private void runFactoryTest(){
+        Test factoryTest = new FactoryTest();
+        factoryTest.runTest();
+    }
+
+    /**
+     * 测试代理模式
      */
     private void runProxyTest(){
         Test proxyTest = new ProxyTest();
