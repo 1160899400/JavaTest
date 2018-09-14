@@ -1,7 +1,7 @@
 import annotation.AnnotationTest;
 import basic.Animal;
 import basic.Dog;
-import designpattern.factory.FactoryTest;
+import designpattern.factory.test.FactoryTest;
 import designpattern.proxy.ProxyTest;
 import intf.Test;
 import reflection.ReflectionTest;

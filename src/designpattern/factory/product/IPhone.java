@@ -1,4 +1,7 @@
-package designpattern.factory;
+package designpattern.factory.product;
+
+import designpattern.factory.constants.PhoneName;
+import designpattern.factory.intf.Phone;
 
 /**
  * @author Hongzhi Liu  2014302580200@whu.edu.cn

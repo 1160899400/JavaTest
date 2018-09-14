@@ -1,4 +1,4 @@
-package designpattern.factory;
+package designpattern.factory.constants;
 
 /**
  * @author Hongzhi Liu  2014302580200@whu.edu.cn

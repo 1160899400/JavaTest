@@ -1,5 +1,8 @@
-package designpattern.factory;
+package designpattern.factory.test;
 
+import designpattern.factory.constants.PhoneName;
+import designpattern.factory.factory.PhoneFactory;
+import designpattern.factory.intf.Phone;
 import intf.Test;
 
 /**
@@ -16,8 +19,11 @@ import intf.Test;
 public class FactoryTest implements Test {
     @Override
     public void runTest() {
+        //获取phone工厂
         PhoneFactory phoneFactory = new PhoneFactory();
         Phone phone;
+
+        //通过phone工厂获取对象
         phone = phoneFactory.getPhone(PhoneName.PHONE_NAME_IPHONE);
         phone.printPhoneName();
         phone = phoneFactory.getPhone(PhoneName.PHONE_NAME_MIPHONE);

@@ -5,7 +5,6 @@ import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
-import java.lang.reflect.ParameterizedType;
 
 /**
  * @author Hongzhi Liu  2014302580200@whu.edu.cn

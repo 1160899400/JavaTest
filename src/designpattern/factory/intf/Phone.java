@@ -1,4 +1,4 @@
-package designpattern.factory;
+package designpattern.factory.intf;
 
 /**
  * @author Hongzhi Liu  2014302580200@whu.edu.cn
