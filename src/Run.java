@@ -1,10 +1,14 @@
 import annotation.AnnotationTest;
 import basic.Animal;
+import basic.BasicTest;
 import basic.Dog;
 import designpattern.factory.test.FactoryTest;
 import designpattern.proxy.ProxyTest;
 import intf.Test;
 import reflection.ReflectionTest;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Run {
 
@@ -20,8 +24,8 @@ public class Run {
 
         Run run = new Run();
 //         run.test1();
-//        run.test2();
-        run.runFactoryTest();
+        run.test2();
+//        run.runFactoryTest();
 //        run.runProxyTest();
 //        run.runReflectionTest();
 
@@ -38,9 +42,8 @@ public class Run {
     }
 
     private void test2() {
-        Animal dog = new Dog();
-        System.out.println(dog.getClass());
-        System.out.println(Animal.class.getName());
+        BasicTest basicTest = new BasicTest();
+        basicTest.runTest();
     }
 
     /**
@@ -58,6 +61,7 @@ public class Run {
     private void runFactoryTest(){
         Test factoryTest = new FactoryTest();
         factoryTest.runTest();
+
     }
 
     /**

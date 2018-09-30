@@ -1,8 +1,8 @@
 package basic;
 
-public class Dog implements Animal {
+public abstract class Dog implements Animal {
     @Override
     public void eat() {
-
+        System.out.println("dog eat");
     }
 }
