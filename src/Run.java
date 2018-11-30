@@ -1,11 +1,10 @@
 import annotation.AnnotationTest;
-import basic.Animal;
 import basic.BasicTest;
-import basic.Dog;
 import designpattern.factory.test.FactoryTest;
 import designpattern.proxy.ProxyTest;
 import intf.Test;
 import reflection.ReflectionTest;
+import thread.ThreadTest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,15 +18,25 @@ public class Run {
 //        System.out.println(Integer.MAX_VALUE);
 
 //        new Executor().execute();
-//        thread.Test1 test1 = new thread.Test1();
-//        test1.show();
+
 
         Run run = new Run();
-//         run.test1();
-        run.test2();
+//         run.threadTest();
+//        run.test2();
 //        run.runFactoryTest();
 //        run.runProxyTest();
 //        run.runReflectionTest();
+
+//        ThreadTest threadTest = new ThreadTest();
+//        threadTest.runTest();
+
+        List<Integer> a = new ArrayList(1);
+        a.add(new Integer(3));
+        a.add(new Integer(10));
+        System.out.println(a.toString());
+
+
+//        System.out.println(System.getProperty("java.library.path"));
 
     }
 
