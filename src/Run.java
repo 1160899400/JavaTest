@@ -5,6 +5,7 @@ import designpattern.proxy.ProxyTest;
 import intf.Test;
 import reflection.ReflectionTest;
 import thread.ThreadTest;
+import thread.ThreadTest2;
 import tree.BinaryTreeTest;
 
 import java.util.ArrayList;
@@ -32,8 +33,11 @@ public class Run {
 
 
 //        System.out.println(System.getProperty("java.library.path"));
-        Test test = new BinaryTreeTest();
-        test.runTest();
+//        Test test = new BinaryTreeTest();
+//        test.runTest();
+
+        ThreadTest2 threadTest2 = new ThreadTest2();
+        threadTest2.runTest();
 
     }
 
