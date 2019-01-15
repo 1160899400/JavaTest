@@ -36,8 +36,8 @@ public class ProxyTest implements Test {
         /**
          * 此处利用 cglib实现动态代理
          */
-        CglibProxy cglibProxy = new CglibProxy();
-        Animation anim = (Animation) cglibProxy.getInstance(animation);
-        anim.display();
+//        CglibProxy cglibProxy = new CglibProxy();
+//        Animation anim = (Animation) cglibProxy.getInstance(animation);
+//        anim.display();
     }
 }
