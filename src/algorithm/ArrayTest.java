@@ -27,9 +27,13 @@ public class ArrayTest implements Test {
      */
     private int[] getMaxNArray(int[] array, final int n) {
         List<Integer> list = new ArrayList<>();
-        //to do
-
+        // 前n个最大值的数组，result[0]为第n大的数值
         int[] result = new int[n];
+        //to do
+        for (int i = 0; i < array.length; i++) {
+            int
+        }
+
         return result;
     }
 }
