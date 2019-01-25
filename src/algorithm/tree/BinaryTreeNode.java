@@ -1,4 +1,4 @@
-package tree;
+package algorithm.tree;
 
 /**
  * @author Hongzhi Liu  liu13407134075@gmail.com
